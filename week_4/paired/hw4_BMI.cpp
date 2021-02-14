@@ -1,3 +1,16 @@
+/*****************************************************
+Student name: Bunting, Benjamin // Bundy, Gavin
+Student ID: w1926518, w1666922
+Course #: CISP360
+Section #:
+Instruction mode: Online
+*****************************************************
+Assignment #4 (ch4) - BMI Math Tutor (paired programming)
+Source file name: hw4_BMI.cpp
+Program description: A program that calculates and displays
+a person’s body mass index (BMI).
+*****************************************************/
+
 #include <iostream>
 #include <cmath>
 
@@ -8,7 +21,7 @@ int main()
   float weight,
         height,
         bmi;
-  cout << "Enter your weight in points: ";
+  cout << "Enter your weight in pounds: ";
   cin >> weight;
   cout << "Enter your height in inches: ";
   cin >> height;

@@ -1,3 +1,16 @@
+/*****************************************************
+Student name: Bunting, Benjamin // Bundy, Gavin
+Student ID: w1926518, w1666922
+Course #: CISP360
+Section #:
+Instruction mode: Online
+*****************************************************
+Assignment #4 (ch4) - BMI Math Tutor (paired programming)
+Source file name: hw4_MathTutor.cpp
+Program description: The program that displays two random
+numbers that are to be added.
+*****************************************************/
+
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
