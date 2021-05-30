@@ -16,7 +16,7 @@ using namespace std;
 
 int main()
 {
-    int lotto_size = 10;
+    const int lotto_size = 10;
     int response;
     bool found = false;
     int position = 0;

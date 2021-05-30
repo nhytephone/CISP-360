@@ -8,11 +8,25 @@ void days_sanity(int &days);
 
 int main()
 {
-  int pop_start,
-      days;
-  float pop_inc;
+  int days,
+      pop_start;
+  float sum,
+        pop_inc;
+
   get_data(pop_start, days, pop_inc);
+
+  sum = pop_start;
+
+  for (int i = 1; i <= days; i++)
+  {
+    sum += (sum*pop_inc);
+    cout << "On day " << i << " the population is now :" << sum << endl;
+  }
+  cout << "The population started at " << pop_start << " and after " << days
+       << " more days it is now " << sum << "." << endl;
 }
+
+
 
 void get_data(int &pop_start, int &days, float &pop_inc)
 {
